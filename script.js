@@ -15,10 +15,7 @@ if(isNaN(num1) || isNaN(num2)){
         result = num1 / num2;
     }else if(Operator == '*'){
         result = num1 * num2;
-    }else if (Operator == '%'){
-        result =num1 % num2;    
-    }else if (Operator == '^')
-         result =num1 ^ num2;
+    }
 
     alert(num1+Operator+num2+'=' + result);
 
