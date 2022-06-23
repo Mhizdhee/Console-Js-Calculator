@@ -1,6 +1,6 @@
 let num1 = parseFloat(prompt('Enter First Number:'));
 
-let Operator = prompt('Enter choice: +, -, /, *, %, ^');
+let Operator = prompt('Enter choice: +, -, /, *');
 let num2 = parseFloat(prompt('Enter Second Number:'));
 
 let result = 0;
